@@ -9498,6 +9498,11 @@ Grid 5.00 mm&lt;p&gt;
 <wire x1="314.96" y1="233.68" x2="314.96" y2="223.52" width="0.1524" layer="91"/>
 <pinref part="SUPPLY5" gate="G$1" pin="5V"/>
 </segment>
+<segment>
+<pinref part="IC2" gate="P" pin="VDD"/>
+<wire x1="363.22" y1="172.72" x2="363.22" y2="180.34" width="0.1524" layer="91"/>
+<label x="363.22" y="175.26" size="1.778" layer="95" rot="R90"/>
+</segment>
 </net>
 <net name="N$2" class="0">
 <segment>
